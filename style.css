@@ -1,0 +1,59 @@
+
+body{
+  margin: 0;
+  padding: 0;
+}
+.row{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.imageContainer{
+  padding-left: 80px;
+}
+h2{
+  padding-bottom: 30px;
+}
+.header{
+  margin-top: 150px;
+}
+.button{
+  background-color: #FF7F50;
+  border: none;
+  color:white;
+  padding:15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 10;
+  position: absolute;
+  border-radius: 8px;
+}
+  span { font-size:20px; }
+ .brand { font-weight:700;border-radius:25px; }
+  .type-cursor { color:#fff; animation:blink .4s ease infinite;opacity:0; }
+  @keyframes blink {
+      100% { opacity:1; }
+  }
+
+.icon{
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.icon:hover{
+  animation: bounce 1s linear;
+}
+@keyframes bounce{
+20%,50%,80%, to{
+  transform: translateY(0);
+} 
+40%{
+  transform: translateY(-30px);
+}
+70%{
+  transform: translateY(-15px);
+}
+90%{
+  transform: translateY(-4px);
+}
+}
