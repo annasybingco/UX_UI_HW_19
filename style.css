@@ -10,6 +10,12 @@ body{
 .imageContainer{
   padding-left: 80px;
 }
+#logo1{
+  padding-left: 79px;
+}
+#logo2{
+  padding-left: 110px;
+}
 h2{
   padding-bottom: 30px;
 }

@@ -1,3 +1,5 @@
+
+
 var pos = 0;
 var turn = 0;
 var data = ['Hi, my name is Anna'];
