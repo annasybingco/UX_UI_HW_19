@@ -1,7 +1,7 @@
 var pos = 0;
 var turn = 0;
-var data = ['UX Designer','Toronto Based','Creative'];
-var speed = 200;
+var data = ['Hi, my name is Anna'];
+var speed = 90;
 
 setTimeout(typeWriter, speed);
 
@@ -16,19 +16,7 @@ function typeWriter() {
   }
 }
 
-function erase() {
-	if (pos >= 0) {
-      var str=data[turn].toString().substring(0, pos);
-      document.getElementById("demo").innerHTML = str;
-      pos--;
-      setTimeout(erase, speed-100);
-    } else {
-      turn++;
-      if(turn>=data.length) 
-        turn=0;
-      setTimeout(typeWriter, speed);
-    }
-}
+
 $(function(){
 $(".nav-link").hover(function(){
   $(this).css("background-color", "red");

@@ -28,7 +28,7 @@ h2{
   position: absolute;
   border-radius: 8px;
 }
-  span { font-size:20px; }
+  span { font-size:40px; }
  .brand { font-weight:700;border-radius:25px; }
   .type-cursor { color:#fff; animation:blink .4s ease infinite;opacity:0; }
   @keyframes blink {
@@ -38,6 +38,7 @@ h2{
 .icon{
   margin: 10px auto;
   cursor: pointer;
+ padding-left: 4px;
 }
 
 .icon:hover{
